@@ -26,8 +26,8 @@ StudyPulse is a web application designed to help students understand and practic
 
   ##  How to Run Project
 ### Frontend:
-npm install
-npm run dev
+- npm install
+- npm run dev
 
 ### Backend:
 pip install -r requirements.txt
