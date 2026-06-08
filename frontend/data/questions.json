@@ -1,0 +1,4169 @@
+[
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "easy",
+    "question": "Why is insertion at head of a singly linked list O(1)?",
+    "options": ["No traversal required", "Sorted property", "Uses recursion", "Binary search"],
+    "correctAnswer": "No traversal required"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "easy",
+    "question": "Which node is directly lost if head pointer is reassigned incorrectly?",
+    "options": ["Only last node", "Entire list", "First node only", "Middle nodes"],
+    "correctAnswer": "Entire list"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "easy",
+    "question": "Why is random access not efficient in linked list?",
+    "options": ["Memory allocation issue", "No index-based access", "Sorting required", "Pointer overflow"],
+    "correctAnswer": "No index-based access"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "easy",
+    "question": "Which pointer in last node is NULL?",
+    "options": ["prev", "next", "head", "tail"],
+    "correctAnswer": "next"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "easy",
+    "question": "Which operation is fastest in linked list?",
+    "options": ["Insertion at head", "Search", "Random access", "Sorting"],
+    "correctAnswer": "Insertion at head"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "easy",
+    "question": "Which structure allows traversal in both directions?",
+    "options": ["Singly LL", "Doubly LL", "Circular LL", "Stack"],
+    "correctAnswer": "Doubly LL"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "easy",
+    "question": "What happens if tail pointer is lost?",
+    "options": ["Traversal stops", "List reversed", "Insertion at end becomes costly", "Deletion fails"],
+    "correctAnswer": "Insertion at end becomes costly"
+  },
+
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "medium",
+    "question": "What is the time complexity to find middle node using slow-fast pointers?",
+    "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+    "correctAnswer": "O(n)"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "medium",
+    "question": "Which technique is used to detect cycle in linked list?",
+    "options": ["DFS", "Hashing", "Floyd’s Algorithm", "Binary Search"],
+    "correctAnswer": "Floyd’s Algorithm"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "medium",
+    "question": "Find output:\nhead = [1,2,3]\nInsert at head 5\nResult?",
+    "options": ["[1,2,3,5]", "[5,1,2,3]", "[2,3,5,1]", "Error"],
+    "correctAnswer": "[5,1,2,3]"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "medium",
+    "question": "What is best way to reverse linked list?",
+    "options": ["Recursion only", "Iterative pointer reversal", "Sorting", "Stack"],
+    "correctAnswer": "Iterative pointer reversal"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "medium",
+    "question": "Time complexity of deleting a known node?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "correctAnswer": "O(1)"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "medium",
+    "question": "What happens if pointers are not updated correctly while reversing?",
+    "options": ["Cycle forms", "List becomes sorted", "Nothing happens", "List duplicates"],
+    "correctAnswer": "Cycle forms"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "medium",
+    "question": "Why is merging two sorted linked lists efficient?",
+    "options": ["Uses recursion", "Linear traversal", "Binary search", "Heap usage"],
+    "correctAnswer": "Linear traversal"
+  },
+
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "hard",
+    "question": "Find output:\nclass Node:\n  def __init__(self,val): self.val=val; self.next=None\nhead=Node(1); head.next=Node(2)\nx=head\nx.next=None\nprint(head.next)",
+    "options": ["Node(2)", "None", "Error", "1"],
+    "correctAnswer": "None"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "hard",
+    "question": "What is main issue when reversing linked list recursively?",
+    "options": ["Stack overflow", "Sorting fails", "Memory leak", "Loop creation"],
+    "correctAnswer": "Stack overflow"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "hard",
+    "question": "Find output:\nhead=[1->2->3]\nRemove 2nd node\nResult?",
+    "options": ["[1,3]", "[2,3]", "[1,2]", "Error"],
+    "correctAnswer": "[1,3]"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "hard",
+    "question": "Which approach is best to detect intersection of two linked lists?",
+    "options": ["Hashing", "Sorting", "Binary search", "Stack"],
+    "correctAnswer": "Hashing"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "hard",
+    "question": "Find output:\nx=[1,2,3]\ny=x\ny.next=None\nprint(x)",
+    "options": ["[1,2,3]", "[1]", "Error", "[3]"],
+    "correctAnswer": "[1]"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Linked List",
+    "difficulty": "hard",
+    "question": "Why is cycle detection tricky in linked list?",
+    "options": ["No index access", "Requires pointer logic", "Sorting required", "Recursion needed"],
+    "correctAnswer": "Requires pointer logic"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "easy",
+    "question": "Why does binary search fail on an unsorted array even if the element exists?",
+    "options": [
+      "Because indices change",
+      "Because ordering property is required",
+      "Because array size matters",
+      "Because recursion is used"
+    ],
+    "correctAnswer": "Because ordering property is required"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "easy",
+    "question": "What happens to time complexity when inserting an element at the beginning of an array?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "correctAnswer": "O(n)"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "easy",
+    "question": "Why is accessing an element in an array O(1)?",
+    "options": [
+      "Because of hashing",
+      "Because elements are stored contiguously",
+      "Because array is sorted",
+      "Because of recursion"
+    ],
+    "correctAnswer": "Because elements are stored contiguously"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "easy",
+    "question": "What issue arises when array size is fixed?",
+    "options": [
+      "Slower access",
+      "Memory wastage or overflow",
+      "Sorting becomes hard",
+      "Searching fails"
+    ],
+    "correctAnswer": "Memory wastage or overflow"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "easy",
+    "question": "Which operation is fastest in arrays?",
+    "options": [
+      "Insertion at middle",
+      "Deletion at start",
+      "Access by index",
+      "Shifting elements"
+    ],
+    "correctAnswer": "Access by index"
+  },
+
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "medium",
+    "question": "Given an array, what is the best approach to find the maximum subarray sum?",
+    "options": [
+      "Sorting",
+      "Kadane’s Algorithm",
+      "Binary Search",
+      "Linear Search"
+    ],
+    "correctAnswer": "Kadane’s Algorithm"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "medium",
+    "question": "What will be the output?\narr = [1,2,3,4]\nprint(arr[::-1])",
+    "options": [
+      "[1,2,3,4]",
+      "[4,3,2,1]",
+      "[2,3,4]",
+      "Error"
+    ],
+    "correctAnswer": "[4,3,2,1]"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "medium",
+    "question": "Which technique is used to solve subarray problems efficiently?",
+    "options": [
+      "Sliding Window",
+      "Heap",
+      "DFS",
+      "Stack"
+    ],
+    "correctAnswer": "Sliding Window"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "medium",
+    "question": "Find output:\narr = [1,2,3]\narr.append(arr)\nprint(len(arr))",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "Error"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "medium",
+    "question": "What is time complexity of merging two sorted arrays?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n^2)",
+      "O(1)"
+    ],
+    "correctAnswer": "O(n)"
+  },
+
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "hard",
+    "question": "Find output:\narr = [1,2,3]\nx = arr\nx[0] = 99\nprint(arr)",
+    "options": [
+      "[1,2,3]",
+      "[99,2,3]",
+      "Error",
+      "[99,99,99]"
+    ],
+    "correctAnswer": "[99,2,3]"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "hard",
+    "question": "Which problem can be solved using prefix sum?",
+    "options": [
+      "Range sum queries",
+      "Sorting",
+      "Graph traversal",
+      "Tree traversal"
+    ],
+    "correctAnswer": "Range sum queries"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "hard",
+    "question": "Find output:\narr = [0]*3\narr[0] = [1]\narr[1] = arr[0]\narr[1].append(2)\nprint(arr)",
+    "options": [
+      "[[1],[1],[0]]",
+      "[[1,2],[1,2],0]",
+      "[[1,2],[1,2],[0]]",
+      "Error"
+    ],
+    "correctAnswer": "[[1,2],[1,2],0]"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "hard",
+    "question": "What is best approach to find duplicate in array without modifying it?",
+    "options": [
+      "Hashing",
+      "Sorting",
+      "Stack",
+      "Recursion"
+    ],
+    "correctAnswer": "Hashing"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Arrays",
+    "difficulty": "hard",
+    "question": "Which algorithm detects cycle in array-like index jumps?",
+    "options": [
+      "Floyd Cycle Detection",
+      "DFS",
+      "BFS",
+      "Heap"
+    ],
+    "correctAnswer": "Floyd Cycle Detection"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "easy",
+    "question": "Which principle does a stack follow?",
+    "options": ["FIFO", "LIFO", "Random", "Priority"],
+    "correctAnswer": "LIFO"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "easy",
+    "question": "Which operation removes element from stack?",
+    "options": ["Push", "Pop", "Peek", "Insert"],
+    "correctAnswer": "Pop"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "easy",
+    "question": "Which application uses stack?",
+    "options": ["Queue scheduling", "Undo operation", "Heap sort", "Graph traversal"],
+    "correctAnswer": "Undo operation"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "easy",
+    "question": "What happens if stack is empty and pop is called?",
+    "options": ["Overflow", "Underflow", "Segmentation fault", "Nothing"],
+    "correctAnswer": "Underflow"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "easy",
+    "question": "Which operation views top element?",
+    "options": ["Pop", "Peek", "Push", "Insert"],
+    "correctAnswer": "Peek"
+  },
+
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "medium",
+    "question": "Evaluate postfix: 23*54*+",
+    "options": ["26", "23", "27", "30"],
+    "correctAnswer": "26"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "medium",
+    "question": "Which structure helps in expression evaluation?",
+    "options": ["Queue", "Stack", "Tree", "Graph"],
+    "correctAnswer": "Stack"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "medium",
+    "question": "Time complexity of push operation?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": "O(1)"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "medium",
+    "question": "Which algorithm uses stack internally?",
+    "options": ["DFS", "BFS", "Dijkstra", "Prim"],
+    "correctAnswer": "DFS"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "medium",
+    "question": "Convert infix to postfix requires?",
+    "options": ["Queue", "Stack", "Heap", "Tree"],
+    "correctAnswer": "Stack"
+  },
+
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "hard",
+    "question": "Find output:\nstack=[]\nstack.append(1)\nstack.append(2)\nstack.pop()\nprint(stack)",
+    "options": ["[1]", "[2]", "[]", "Error"],
+    "correctAnswer": "[1]"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "hard",
+    "question": "What is used to check balanced parentheses?",
+    "options": ["Queue", "Stack", "Heap", "Graph"],
+    "correctAnswer": "Stack"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "hard",
+    "question": "Which problem uses stack effectively?",
+    "options": ["Next greater element", "Sorting", "Graph coloring", "DP"],
+    "correctAnswer": "Next greater element"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "hard",
+    "question": "Find output:\ns=[]\ns.append(1)\ns.append(2)\ns.pop()\ns.append(3)\nprint(s)",
+    "options": ["[1,3]", "[2,3]", "[1,2]", "Error"],
+    "correctAnswer": "[1,3]"
+  },
+  {
+    "subject": "DSA",
+    "concept": "Stack",
+    "difficulty": "hard",
+    "question": "Why stack overflow occurs?",
+    "options": ["Too many pops", "Too many pushes", "Memory leak", "Sorting"],
+    "correctAnswer": "Too many pushes"
+  },
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "easy",
+  "question": "Which principle does a queue follow?",
+  "options": ["FIFO", "LIFO", "Priority", "Random"],
+  "correctAnswer": "FIFO"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "easy",
+  "question": "Which operation inserts into queue?",
+  "options": ["Push", "Pop", "Enqueue", "Peek"],
+  "correctAnswer": "Enqueue"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "easy",
+  "question": "Which operation removes element from queue?",
+  "options": ["Pop", "Dequeue", "Push", "Insert"],
+  "correctAnswer": "Dequeue"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "easy",
+  "question": "Which application uses queue?",
+  "options": ["Undo operation", "CPU scheduling", "Recursion", "Sorting"],
+  "correctAnswer": "CPU scheduling"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "easy",
+  "question": "What happens if queue is empty and dequeue is called?",
+  "options": ["Overflow", "Underflow", "Error", "Nothing"],
+  "correctAnswer": "Underflow"
+},
+
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "medium",
+  "question": "Which structure uses queue internally?",
+  "options": ["DFS", "BFS", "Stack", "Heap"],
+  "correctAnswer": "BFS"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "medium",
+  "question": "Time complexity of enqueue?",
+  "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+  "correctAnswer": "O(1)"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "medium",
+  "question": "Which queue type connects end to start?",
+  "options": ["Linear", "Circular", "Priority", "Deque"],
+  "correctAnswer": "Circular"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "medium",
+  "question": "Which queue allows insertion at both ends?",
+  "options": ["Deque", "Priority queue", "Linear queue", "Circular queue"],
+  "correctAnswer": "Deque"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "medium",
+  "question": "Which queue uses priority for removal?",
+  "options": ["Linear", "Circular", "Priority queue", "Deque"],
+  "correctAnswer": "Priority queue"
+},
+
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "hard",
+  "question": "Find output:\nq=[1,2,3]\nq.pop(0)\nprint(q)",
+  "options": ["[2,3]", "[1,2]", "[3]", "Error"],
+  "correctAnswer": "[2,3]"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "hard",
+  "question": "Why circular queue avoids wastage?",
+  "options": ["Better sorting", "Reuses space", "Faster search", "Less memory"],
+  "correctAnswer": "Reuses space"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "hard",
+  "question": "Which algorithm uses queue?",
+  "options": ["BFS", "DFS", "Binary search", "Merge sort"],
+  "correctAnswer": "BFS"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "hard",
+  "question": "Find output:\nq=[]\nq.append(1)\nq.append(2)\nq.pop(0)\nq.append(3)\nprint(q)",
+  "options": ["[2,3]", "[1,3]", "[1,2]", "Error"],
+  "correctAnswer": "[2,3]"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "hard",
+  "question": "What causes queue overflow?",
+  "options": ["Too many dequeue", "Too many enqueue", "Sorting", "Traversal"],
+  "correctAnswer": "Too many enqueue"
+},
+
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "easy",
+  "question": "What is root node?",
+  "options": ["Top node", "Leaf node", "Middle node", "Parent node"],
+  "correctAnswer": "Top node"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "easy",
+  "question": "Which node has no children?",
+  "options": ["Root", "Leaf", "Parent", "Internal"],
+  "correctAnswer": "Leaf"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "easy",
+  "question": "Binary tree has maximum how many children?",
+  "options": ["1", "2", "3", "Unlimited"],
+  "correctAnswer": "2"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "easy",
+  "question": "Height of single node tree?",
+  "options": ["0", "1", "2", "Undefined"],
+  "correctAnswer": "0"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "easy",
+  "question": "Which traversal visits root first?",
+  "options": ["Inorder", "Preorder", "Postorder", "Level"],
+  "correctAnswer": "Preorder"
+},
+
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "medium",
+  "question": "Which traversal gives sorted output in BST?",
+  "options": ["Inorder", "Preorder", "Postorder", "Level"],
+  "correctAnswer": "Inorder"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "medium",
+  "question": "Which structure uses recursion heavily?",
+  "options": ["Tree traversal", "Queue", "Stack", "Array"],
+  "correctAnswer": "Tree traversal"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "medium",
+  "question": "Which traversal uses queue?",
+  "options": ["Level order", "Inorder", "Postorder", "Preorder"],
+  "correctAnswer": "Level order"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "medium",
+  "question": "Height of complete binary tree is?",
+  "options": ["log n", "n", "n log n", "1"],
+  "correctAnswer": "log n"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "medium",
+  "question": "Which node has children?",
+  "options": ["Leaf", "Internal", "Root only", "None"],
+  "correctAnswer": "Internal"
+},
+
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "hard",
+  "question": "Find output:\nTree: root=1 left=2 right=3\nPreorder?",
+  "options": ["1,2,3", "2,1,3", "2,3,1", "3,2,1"],
+  "correctAnswer": "1,2,3"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "hard",
+  "question": "Which algorithm finds shortest path in tree?",
+  "options": ["BFS", "DFS", "Binary search", "Heap"],
+  "correctAnswer": "BFS"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "hard",
+  "question": "Find output:\nInorder of BST [2,1,3] gives?",
+  "options": ["1,2,3", "2,1,3", "3,2,1", "Error"],
+  "correctAnswer": "1,2,3"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "hard",
+  "question": "Which property defines BST?",
+  "options": ["Left < Root < Right", "Root < Left", "Right < Root", "None"],
+  "correctAnswer": "Left < Root < Right"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "hard",
+  "question": "Which traversal uses stack internally?",
+  "options": ["DFS", "BFS", "Heap", "Sorting"],
+  "correctAnswer": "DFS"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "easy",
+  "question": "Which node has no parent?",
+  "options": ["Root", "Leaf", "Internal", "Child"],
+  "correctAnswer": "Root"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "easy",
+  "question": "Which traversal visits children before root?",
+  "options": ["Postorder", "Preorder", "Inorder", "Level"],
+  "correctAnswer": "Postorder"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "medium",
+  "question": "Which traversal uses recursion stack?",
+  "options": ["DFS", "BFS", "Heap", "Queue"],
+  "correctAnswer": "DFS"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "medium",
+  "question": "Which tree is balanced?",
+  "options": ["AVL Tree", "Binary Tree", "Heap", "Graph"],
+  "correctAnswer": "AVL Tree"
+},
+{
+  "subject": "DSA",
+  "concept": "Trees",
+  "difficulty": "hard",
+  "question": "Find output:\nPreorder: 1,2,3\nWhat is root?",
+  "options": ["1", "2", "3", "None"],
+  "correctAnswer": "1"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "easy",
+  "question": "Which queue is best for scheduling?",
+  "options": ["Priority Queue", "Stack", "Array", "Heap"],
+  "correctAnswer": "Priority Queue"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "easy",
+  "question": "Which queue avoids overflow problem?",
+  "options": ["Linear", "Circular", "Stack", "Heap"],
+  "correctAnswer": "Circular"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "medium",
+  "question": "Which structure implements BFS?",
+  "options": ["Stack", "Queue", "Heap", "Tree"],
+  "correctAnswer": "Queue"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "medium",
+  "question": "Time complexity of dequeue?",
+  "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+  "correctAnswer": "O(1)"
+},
+{
+  "subject": "DSA",
+  "concept": "Queue",
+  "difficulty": "hard",
+  "question": "Find output:\nq=[1,2,3]\nq.pop(0)\nq.pop(0)\nprint(q)",
+  "options": ["[3]", "[1]", "[]", "Error"],
+  "correctAnswer": "[3]"
+},
+{
+  "subject": "DSA",
+  "concept": "Stack",
+  "difficulty": "easy",
+  "question": "Why recursion uses stack?",
+  "options": ["Stores variables", "Stores function calls", "Stores arrays", "Stores loops"],
+  "correctAnswer": "Stores function calls"
+},
+{
+  "subject": "DSA",
+  "concept": "Stack",
+  "difficulty": "easy",
+  "question": "Which condition checks empty stack?",
+  "options": ["top==0", "top==-1", "top==1", "top==n"],
+  "correctAnswer": "top==-1"
+},
+{
+  "subject": "DSA",
+  "concept": "Stack",
+  "difficulty": "medium",
+  "question": "Which problem uses monotonic stack?",
+  "options": ["Next greater element", "Sorting", "Traversal", "Search"],
+  "correctAnswer": "Next greater element"
+},
+{
+  "subject": "DSA",
+  "concept": "Stack",
+  "difficulty": "medium",
+  "question": "Which conversion uses stack?",
+  "options": ["Infix to postfix", "Sorting", "Binary search", "Heap"],
+  "correctAnswer": "Infix to postfix"
+},
+{
+  "subject": "DSA",
+  "concept": "Stack",
+  "difficulty": "hard",
+  "question": "Find output:\ns=[]\ns.append(1)\ns.append(2)\ns.pop()\ns.pop()\nprint(len(s))",
+  "options": ["0", "1", "2", "Error"],
+  "correctAnswer": "0"
+},
+{
+  "subject": "DSA",
+  "concept": "Linked List",
+  "difficulty": "easy",
+  "question": "Why linked list saves memory compared to array sometimes?",
+  "options": ["No contiguous allocation", "Faster sorting", "Binary search", "Stack usage"],
+  "correctAnswer": "No contiguous allocation"
+},
+{
+  "subject": "DSA",
+  "concept": "Linked List",
+  "difficulty": "easy",
+  "question": "Which structure avoids shifting elements?",
+  "options": ["Array", "Linked List", "Heap", "Stack"],
+  "correctAnswer": "Linked List"
+},
+{
+  "subject": "DSA",
+  "concept": "Linked List",
+  "difficulty": "medium",
+  "question": "Which pointer helps detect cycle?",
+  "options": ["Single pointer", "Double pointer", "Fast & Slow pointer", "Random pointer"],
+  "correctAnswer": "Fast & Slow pointer"
+},
+{
+  "subject": "DSA",
+  "concept": "Linked List",
+  "difficulty": "medium",
+  "question": "Time complexity to find nth node?",
+  "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+  "correctAnswer": "O(n)"
+},
+{
+  "subject": "DSA",
+  "concept": "Linked List",
+  "difficulty": "hard",
+  "question": "Find output:\nx=[1,2]\ny=x\ny.append(3)\ndel y\nprint(x)",
+  "options": ["[1,2]", "[1,2,3]", "Error", "[]"],
+  "correctAnswer": "[1,2,3]"
+},
+{
+  "subject": "DSA",
+  "concept": "Arrays",
+  "difficulty": "easy",
+  "question": "Why does shifting elements increase time complexity in arrays?",
+  "options": ["Because of recursion", "Because contiguous memory must be maintained", "Because sorting is required", "Because indexing fails"],
+  "correctAnswer": "Because contiguous memory must be maintained"
+},
+{
+  "subject": "DSA",
+  "concept": "Arrays",
+  "difficulty": "easy",
+  "question": "Which operation is most expensive in array?",
+  "options": ["Access", "Insertion at start", "Traversal", "Reading"],
+  "correctAnswer": "Insertion at start"
+},
+{
+  "subject": "DSA",
+  "concept": "Arrays",
+  "difficulty": "medium",
+  "question": "Find output:\narr=[1,2,3]\narr.insert(1,5)\nprint(arr)",
+  "options": ["[1,5,2,3]", "[5,1,2,3]", "[1,2,5,3]", "Error"],
+  "correctAnswer": "[1,5,2,3]"
+},
+{
+  "subject": "DSA",
+  "concept": "Arrays",
+  "difficulty": "medium",
+  "question": "Which technique is used for range sum efficiently?",
+  "options": ["Sorting", "Prefix Sum", "Binary Search", "Heap"],
+  "correctAnswer": "Prefix Sum"
+},
+{
+  "subject": "DSA",
+  "concept": "Arrays",
+  "difficulty": "hard",
+  "question": "Find output:\narr=[1,2]\nx=arr.copy()\nx.append(3)\nprint(arr)",
+  "options": ["[1,2]", "[1,2,3]", "Error", "[3]"],
+  "correctAnswer": "[1,2]"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "easy",
+  "question": "Why is OSI layered architecture used?",
+  "options": ["To reduce memory", "To simplify design and troubleshooting", "To increase speed", "To remove protocols"],
+  "correctAnswer": "To simplify design and troubleshooting"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "easy",
+  "question": "Which layer handles segmentation?",
+  "options": ["Transport", "Network", "Data Link", "Application"],
+  "correctAnswer": "Transport"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "easy",
+  "question": "Which layer defines how data is presented?",
+  "options": ["Presentation", "Session", "Transport", "Network"],
+  "correctAnswer": "Presentation"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "easy",
+  "question": "Which layer provides logical addressing?",
+  "options": ["Network", "Data Link", "Physical", "Session"],
+  "correctAnswer": "Network"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "easy",
+  "question": "Which layer is closest to the user?",
+  "options": ["Application", "Transport", "Network", "Data Link"],
+  "correctAnswer": "Application"
+},
+
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "medium",
+  "question": "Which layer ensures flow control?",
+  "options": ["Transport", "Network", "Session", "Physical"],
+  "correctAnswer": "Transport"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "medium",
+  "question": "Which layer adds headers and trailers?",
+  "options": ["Data Link", "Transport", "Session", "Application"],
+  "correctAnswer": "Data Link"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "medium",
+  "question": "Which layer is responsible for error detection?",
+  "options": ["Data Link", "Network", "Transport", "Application"],
+  "correctAnswer": "Data Link"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "medium",
+  "question": "Which layer maintains session checkpoints?",
+  "options": ["Session", "Transport", "Application", "Network"],
+  "correctAnswer": "Session"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "medium",
+  "question": "Which layer interacts directly with hardware?",
+  "options": ["Physical", "Data Link", "Network", "Session"],
+  "correctAnswer": "Physical"
+},
+
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "hard",
+  "question": "If a packet is lost during transmission, which layer ensures retransmission?",
+  "options": ["Transport", "Network", "Session", "Application"],
+  "correctAnswer": "Transport"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "hard",
+  "question": "Which layer would handle compression and encryption together?",
+  "options": ["Presentation", "Session", "Transport", "Application"],
+  "correctAnswer": "Presentation"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "hard",
+  "question": "Which layer is responsible for path determination?",
+  "options": ["Network", "Transport", "Data Link", "Application"],
+  "correctAnswer": "Network"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "hard",
+  "question": "Which layer deals with bit synchronization?",
+  "options": ["Physical", "Data Link", "Transport", "Session"],
+  "correctAnswer": "Physical"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "hard",
+  "question": "Which layer controls dialog (half/full duplex)?",
+  "options": ["Session", "Transport", "Application", "Network"],
+  "correctAnswer": "Session"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "easy",
+  "question": "Why is TCP considered reliable?",
+  "options": ["Fast speed", "Acknowledgement mechanism", "Low memory", "No retransmission"],
+  "correctAnswer": "Acknowledgement mechanism"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "easy",
+  "question": "Which protocol is used for sending emails?",
+  "options": ["SMTP", "HTTP", "FTP", "DNS"],
+  "correctAnswer": "SMTP"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "easy",
+  "question": "Which protocol transfers files?",
+  "options": ["FTP", "HTTP", "DNS", "TCP"],
+  "correctAnswer": "FTP"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "easy",
+  "question": "Which protocol resolves domain names?",
+  "options": ["DNS", "HTTP", "TCP", "FTP"],
+  "correctAnswer": "DNS"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "easy",
+  "question": "Which protocol is faster but unreliable?",
+  "options": ["UDP", "TCP", "HTTP", "FTP"],
+  "correctAnswer": "UDP"
+},
+
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "medium",
+  "question": "Which protocol uses 3-way handshake?",
+  "options": ["TCP", "UDP", "HTTP", "DNS"],
+  "correctAnswer": "TCP"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "medium",
+  "question": "Which protocol works at application layer?",
+  "options": ["HTTP", "IP", "ARP", "ICMP"],
+  "correctAnswer": "HTTP"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "medium",
+  "question": "Which protocol maps IP to MAC?",
+  "options": ["ARP", "DNS", "HTTP", "TCP"],
+  "correctAnswer": "ARP"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "medium",
+  "question": "Which protocol is used for ping?",
+  "options": ["ICMP", "TCP", "HTTP", "DNS"],
+  "correctAnswer": "ICMP"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "medium",
+  "question": "Which protocol uses port 21?",
+  "options": ["FTP", "HTTP", "SMTP", "DNS"],
+  "correctAnswer": "FTP"
+},
+
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "hard",
+  "question": "Which protocol ensures congestion control?",
+  "options": ["TCP", "UDP", "DNS", "HTTP"],
+  "correctAnswer": "TCP"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "hard",
+  "question": "Which protocol uses port 53?",
+  "options": ["DNS", "HTTP", "FTP", "SMTP"],
+  "correctAnswer": "DNS"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "hard",
+  "question": "Which protocol is stateless?",
+  "options": ["HTTP", "TCP", "FTP", "SMTP"],
+  "correctAnswer": "HTTP"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "hard",
+  "question": "Which protocol supports multicast?",
+  "options": ["UDP", "TCP", "HTTP", "FTP"],
+  "correctAnswer": "UDP"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "hard",
+  "question": "Which protocol provides reliable byte stream?",
+  "options": ["TCP", "UDP", "DNS", "ICMP"],
+  "correctAnswer": "TCP"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "easy",
+  "question": "Why are IP addresses required?",
+  "options": ["To identify devices uniquely", "To increase speed", "To encrypt data", "To store data"],
+  "correctAnswer": "To identify devices uniquely"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "easy",
+  "question": "Which class supports largest network?",
+  "options": ["Class A", "Class B", "Class C", "Class D"],
+  "correctAnswer": "Class A"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "easy",
+  "question": "Which IP is reserved for loopback?",
+  "options": ["127.0.0.1", "192.168.1.1", "10.0.0.1", "255.255.255.0"],
+  "correctAnswer": "127.0.0.1"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "easy",
+  "question": "Which IP type is used internally?",
+  "options": ["Private", "Public", "Loopback", "Broadcast"],
+  "correctAnswer": "Private"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "easy",
+  "question": "IPv4 address size?",
+  "options": ["32-bit", "64-bit", "128-bit", "16-bit"],
+  "correctAnswer": "32-bit"
+},
+
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "medium",
+  "question": "Which address represents all devices in a network?",
+  "options": ["Broadcast", "Loopback", "Private", "Public"],
+  "correctAnswer": "Broadcast"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "medium",
+  "question": "Which class is used for multicast?",
+  "options": ["Class D", "Class A", "Class B", "Class C"],
+  "correctAnswer": "Class D"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "medium",
+  "question": "Which notation represents subnet mask?",
+  "options": ["CIDR", "MAC", "DNS", "ARP"],
+  "correctAnswer": "CIDR"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "medium",
+  "question": "Which IP is valid private range?",
+  "options": ["10.0.0.1", "8.8.8.8", "1.1.1.1", "172.0.0.1"],
+  "correctAnswer": "10.0.0.1"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "medium",
+  "question": "Which address identifies network portion?",
+  "options": ["Network ID", "Host ID", "MAC", "Port"],
+  "correctAnswer": "Network ID"
+},
+
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "hard",
+  "question": "IPv6 address length?",
+  "options": ["128-bit", "64-bit", "32-bit", "256-bit"],
+  "correctAnswer": "128-bit"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "hard",
+  "question": "Which addressing reduces IPv4 exhaustion?",
+  "options": ["NAT", "ARP", "DNS", "FTP"],
+  "correctAnswer": "NAT"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "hard",
+  "question": "Which addressing allows multiple IPs per host?",
+  "options": ["Subnetting", "Routing", "Switching", "Encoding"],
+  "correctAnswer": "Subnetting"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "hard",
+  "question": "Which address identifies host uniquely?",
+  "options": ["Host ID", "Network ID", "Broadcast", "Loopback"],
+  "correctAnswer": "Host ID"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "hard",
+  "question": "Which addressing scheme improves scalability?",
+  "options": ["CIDR", "ARP", "DNS", "HTTP"],
+  "correctAnswer": "CIDR"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "easy",
+  "question": "Why is switching required?",
+  "options": ["Efficient communication", "Encryption", "Storage", "Processing"],
+  "correctAnswer": "Efficient communication"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "easy",
+  "question": "Which switching uses dedicated path?",
+  "options": ["Circuit", "Packet", "Message", "Frame"],
+  "correctAnswer": "Circuit"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "easy",
+  "question": "Which switching divides data into packets?",
+  "options": ["Packet", "Circuit", "Message", "Frame"],
+  "correctAnswer": "Packet"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "easy",
+  "question": "Which switching stores and forwards?",
+  "options": ["Message", "Packet", "Circuit", "Frame"],
+  "correctAnswer": "Message"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "easy",
+  "question": "Which switching is used in internet?",
+  "options": ["Packet", "Circuit", "Message", "Frame"],
+  "correctAnswer": "Packet"
+},
+
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "medium",
+  "question": "Which switching minimizes delay?",
+  "options": ["Packet", "Circuit", "Message", "Frame"],
+  "correctAnswer": "Packet"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "medium",
+  "question": "Which switching is inefficient for large data?",
+  "options": ["Message", "Packet", "Circuit", "Frame"],
+  "correctAnswer": "Message"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "medium",
+  "question": "Which switching supports dynamic routing?",
+  "options": ["Packet", "Circuit", "Message", "Frame"],
+  "correctAnswer": "Packet"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "medium",
+  "question": "Which switching is used in telephone network?",
+  "options": ["Circuit", "Packet", "Message", "Frame"],
+  "correctAnswer": "Circuit"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "medium",
+  "question": "Which switching has setup phase?",
+  "options": ["Circuit", "Packet", "Message", "Frame"],
+  "correctAnswer": "Circuit"
+},
+
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "hard",
+  "question": "Which switching is best for real-time communication?",
+  "options": ["Circuit", "Packet", "Message", "Frame"],
+  "correctAnswer": "Circuit"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "hard",
+  "question": "Which switching improves bandwidth utilization?",
+  "options": ["Packet", "Circuit", "Message", "Frame"],
+  "correctAnswer": "Packet"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "hard",
+  "question": "Which switching avoids resource reservation?",
+  "options": ["Packet", "Circuit", "Message", "Frame"],
+  "correctAnswer": "Packet"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "hard",
+  "question": "Which switching supports error correction easily?",
+  "options": ["Packet", "Circuit", "Message", "Frame"],
+  "correctAnswer": "Packet"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "hard",
+  "question": "Which switching reduces congestion?",
+  "options": ["Packet", "Circuit", "Message", "Frame"],
+  "correctAnswer": "Packet"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "easy",
+  "question": "Why DNS is required?",
+  "options": ["Map names to IP", "Encrypt data", "Route packets", "Store data"],
+  "correctAnswer": "Map names to IP"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "easy",
+  "question": "Which protocol DNS uses?",
+  "options": ["UDP", "TCP", "HTTP", "FTP"],
+  "correctAnswer": "UDP"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "easy",
+  "question": "Which system is DNS?",
+  "options": ["Hierarchical", "Flat", "Circular", "Random"],
+  "correctAnswer": "Hierarchical"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "easy",
+  "question": "DNS resolves?",
+  "options": ["Domain to IP", "IP to MAC", "MAC to IP", "Port to IP"],
+  "correctAnswer": "Domain to IP"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "easy",
+  "question": "Which server stores domain mapping?",
+  "options": ["DNS Server", "Web Server", "Mail Server", "Proxy"],
+  "correctAnswer": "DNS Server"
+},
+
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "medium",
+  "question": "What is DNS caching?",
+  "options": ["Store resolved names", "Encrypt data", "Route packets", "Assign IP"],
+  "correctAnswer": "Store resolved names"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "medium",
+  "question": "Which DNS query resolves recursively?",
+  "options": ["Recursive", "Iterative", "Direct", "Parallel"],
+  "correctAnswer": "Recursive"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "medium",
+  "question": "Which DNS server is root?",
+  "options": ["Top level", "Local", "ISP", "Proxy"],
+  "correctAnswer": "Top level"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "medium",
+  "question": "Which DNS improves speed?",
+  "options": ["Caching", "Routing", "Switching", "Encoding"],
+  "correctAnswer": "Caching"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "medium",
+  "question": "Which DNS resolves faster?",
+  "options": ["Cached", "New lookup", "Slow lookup", "None"],
+  "correctAnswer": "Cached"
+},
+
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "hard",
+  "question": "Which attack targets DNS mapping?",
+  "options": ["DNS Spoofing", "Phishing", "XSS", "SQL Injection"],
+  "correctAnswer": "DNS Spoofing"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "hard",
+  "question": "Which DNS improves reliability?",
+  "options": ["Redundancy", "Routing", "Switching", "Encoding"],
+  "correctAnswer": "Redundancy"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "hard",
+  "question": "Which DNS avoids repeated queries?",
+  "options": ["Caching", "Routing", "Switching", "Encoding"],
+  "correctAnswer": "Caching"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "hard",
+  "question": "Which DNS reduces latency?",
+  "options": ["Caching", "Routing", "Switching", "Encoding"],
+  "correctAnswer": "Caching"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "hard",
+  "question": "Which DNS prevents spoofing?",
+  "options": ["DNSSEC", "HTTP", "FTP", "TCP"],
+  "correctAnswer": "DNSSEC"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "easy",
+  "question": "DNS converts?",
+  "options": ["Name to IP", "IP to Name", "MAC to IP", "Port to IP"],
+  "correctAnswer": "Name to IP"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "easy",
+  "question": "Which protocol DNS uses?",
+  "options": ["UDP", "TCP", "HTTP", "FTP"],
+  "correctAnswer": "UDP"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "medium",
+  "question": "Which server resolves names?",
+  "options": ["DNS Server", "Web Server", "Mail Server", "Proxy"],
+  "correctAnswer": "DNS Server"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "medium",
+  "question": "What is caching in DNS?",
+  "options": ["Store previous results", "Encrypt data", "Route packets", "Assign IP"],
+  "correctAnswer": "Store previous results"
+},
+{
+  "subject": "CN",
+  "concept": "DNS",
+  "difficulty": "hard",
+  "question": "Which attack targets DNS?",
+  "options": ["DNS Spoofing", "Phishing", "SQL Injection", "XSS"],
+  "correctAnswer": "DNS Spoofing"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "easy",
+  "question": "Which switching sends full message first?",
+  "options": ["Message", "Packet", "Circuit", "Frame"],
+  "correctAnswer": "Message"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "easy",
+  "question": "Which switching is used in telephone?",
+  "options": ["Circuit", "Packet", "Message", "Frame"],
+  "correctAnswer": "Circuit"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "medium",
+  "question": "Which switching breaks data into packets?",
+  "options": ["Packet", "Circuit", "Message", "Frame"],
+  "correctAnswer": "Packet"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "medium",
+  "question": "Which switching is most efficient?",
+  "options": ["Packet", "Circuit", "Message", "Frame"],
+  "correctAnswer": "Packet"
+},
+{
+  "subject": "CN",
+  "concept": "Switching",
+  "difficulty": "hard",
+  "question": "Which switching avoids delay in setup?",
+  "options": ["Packet", "Circuit", "Message", "Frame"],
+  "correctAnswer": "Packet"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "easy",
+  "question": "Which class has most hosts?",
+  "options": ["Class A", "Class B", "Class C", "Class D"],
+  "correctAnswer": "Class A"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "easy",
+  "question": "IPv4 size?",
+  "options": ["32-bit", "64-bit", "128-bit", "16-bit"],
+  "correctAnswer": "32-bit"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "medium",
+  "question": "Which IP is private?",
+  "options": ["192.168.x.x", "8.8.8.8", "1.1.1.1", "172.0.0.1"],
+  "correctAnswer": "192.168.x.x"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "medium",
+  "question": "Loopback address?",
+  "options": ["127.0.0.1", "192.168.1.1", "10.0.0.1", "255.255.255.0"],
+  "correctAnswer": "127.0.0.1"
+},
+{
+  "subject": "CN",
+  "concept": "IP Addressing",
+  "difficulty": "hard",
+  "question": "IPv6 size?",
+  "options": ["128-bit", "64-bit", "32-bit", "256-bit"],
+  "correctAnswer": "128-bit"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "easy",
+  "question": "Which protocol is connectionless?",
+  "options": ["TCP", "UDP", "HTTP", "FTP"],
+  "correctAnswer": "UDP"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "easy",
+  "question": "Which protocol is used for web browsing?",
+  "options": ["HTTP", "FTP", "SMTP", "DNS"],
+  "correctAnswer": "HTTP"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "medium",
+  "question": "Which protocol ensures reliability?",
+  "options": ["TCP", "UDP", "IP", "ARP"],
+  "correctAnswer": "TCP"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "medium",
+  "question": "Which protocol resolves IP to MAC?",
+  "options": ["ARP", "DNS", "HTTP", "TCP"],
+  "correctAnswer": "ARP"
+},
+{
+  "subject": "CN",
+  "concept": "Protocols",
+  "difficulty": "hard",
+  "question": "Which protocol uses port 80?",
+  "options": ["HTTP", "FTP", "SMTP", "DNS"],
+  "correctAnswer": "HTTP"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "easy",
+  "question": "Which layer ensures reliable delivery?",
+  "options": ["Network", "Transport", "Session", "Data Link"],
+  "correctAnswer": "Transport"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "easy",
+  "question": "Which layer handles encryption?",
+  "options": ["Presentation", "Transport", "Network", "Application"],
+  "correctAnswer": "Presentation"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "medium",
+  "question": "Which layer establishes sessions?",
+  "options": ["Session", "Transport", "Network", "Application"],
+  "correctAnswer": "Session"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "medium",
+  "question": "Which layer adds MAC address?",
+  "options": ["Data Link", "Network", "Transport", "Application"],
+  "correctAnswer": "Data Link"
+},
+{
+  "subject": "CN",
+  "concept": "OSI Model",
+  "difficulty": "hard",
+  "question": "Which layer converts bits to signals?",
+  "options": ["Physical", "Data Link", "Transport", "Network"],
+  "correctAnswer": "Physical"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "easy",
+  "question": "Why is normalization used in databases?",
+  "options": ["To remove redundancy", "To increase redundancy", "To speed CPU", "To encrypt data"],
+  "correctAnswer": "To remove redundancy"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "easy",
+  "question": "Which normal form removes repeating groups?",
+  "options": ["1NF", "2NF", "3NF", "BCNF"],
+  "correctAnswer": "1NF"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "easy",
+  "question": "Which normal form removes partial dependency?",
+  "options": ["2NF", "1NF", "3NF", "BCNF"],
+  "correctAnswer": "2NF"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "easy",
+  "question": "Which normal form removes transitive dependency?",
+  "options": ["3NF", "2NF", "1NF", "BCNF"],
+  "correctAnswer": "3NF"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "easy",
+  "question": "What is BCNF based on?",
+  "options": ["Functional dependency", "Indexing", "Keys", "Sorting"],
+  "correctAnswer": "Functional dependency"
+},
+
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "medium",
+  "question": "Which dependency causes redundancy?",
+  "options": ["Functional dependency", "Partial dependency", "Join dependency", "None"],
+  "correctAnswer": "Partial dependency"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "medium",
+  "question": "Which normal form ensures minimal redundancy?",
+  "options": ["3NF", "1NF", "2NF", "None"],
+  "correctAnswer": "3NF"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "medium",
+  "question": "Which key uniquely identifies record?",
+  "options": ["Primary key", "Foreign key", "Candidate key", "Super key"],
+  "correctAnswer": "Primary key"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "medium",
+  "question": "Which key references another table?",
+  "options": ["Foreign key", "Primary key", "Candidate key", "Super key"],
+  "correctAnswer": "Foreign key"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "medium",
+  "question": "Which normalization removes update anomaly?",
+  "options": ["2NF", "1NF", "3NF", "None"],
+  "correctAnswer": "2NF"
+},
+
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "hard",
+  "question": "Which dependency violates BCNF?",
+  "options": ["Non-superkey dependency", "Primary key dependency", "Candidate key", "None"],
+  "correctAnswer": "Non-superkey dependency"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "hard",
+  "question": "Which anomaly is removed in 1NF?",
+  "options": ["Insertion anomaly", "Deletion anomaly", "Repeating group anomaly", "Update anomaly"],
+  "correctAnswer": "Repeating group anomaly"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "hard",
+  "question": "Which normalization ensures no transitive dependency?",
+  "options": ["3NF", "2NF", "1NF", "BCNF"],
+  "correctAnswer": "3NF"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "hard",
+  "question": "Which key is minimal super key?",
+  "options": ["Candidate key", "Primary key", "Foreign key", "None"],
+  "correctAnswer": "Candidate key"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "hard",
+  "question": "Which normal form removes multivalued dependency?",
+  "options": ["4NF", "3NF", "2NF", "1NF"],
+  "correctAnswer": "4NF"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "easy",
+  "question": "Which SQL command retrieves data?",
+  "options": ["SELECT", "INSERT", "DELETE", "UPDATE"],
+  "correctAnswer": "SELECT"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "easy",
+  "question": "Which command adds data?",
+  "options": ["INSERT", "SELECT", "UPDATE", "DELETE"],
+  "correctAnswer": "INSERT"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "easy",
+  "question": "Which command removes data?",
+  "options": ["DELETE", "INSERT", "SELECT", "UPDATE"],
+  "correctAnswer": "DELETE"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "easy",
+  "question": "Which clause filters rows?",
+  "options": ["WHERE", "GROUP BY", "ORDER BY", "JOIN"],
+  "correctAnswer": "WHERE"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "easy",
+  "question": "Which clause sorts results?",
+  "options": ["ORDER BY", "WHERE", "GROUP BY", "JOIN"],
+  "correctAnswer": "ORDER BY"
+},
+
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "medium",
+  "question": "Which join returns common records?",
+  "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
+  "correctAnswer": "INNER JOIN"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "medium",
+  "question": "Which function counts rows?",
+  "options": ["COUNT()", "SUM()", "AVG()", "MAX()"],
+  "correctAnswer": "COUNT()"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "medium",
+  "question": "Which clause groups rows?",
+  "options": ["GROUP BY", "ORDER BY", "WHERE", "JOIN"],
+  "correctAnswer": "GROUP BY"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "medium",
+  "question": "Which keyword removes duplicates?",
+  "options": ["DISTINCT", "UNIQUE", "PRIMARY", "GROUP"],
+  "correctAnswer": "DISTINCT"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "medium",
+  "question": "Which clause filters grouped data?",
+  "options": ["HAVING", "WHERE", "ORDER", "JOIN"],
+  "correctAnswer": "HAVING"
+},
+
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "hard",
+  "question": "Which join returns all records from both tables?",
+  "options": ["FULL JOIN", "INNER JOIN", "LEFT JOIN", "RIGHT JOIN"],
+  "correctAnswer": "FULL JOIN"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "hard",
+  "question": "Which SQL command modifies structure?",
+  "options": ["ALTER", "SELECT", "INSERT", "DELETE"],
+  "correctAnswer": "ALTER"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "hard",
+  "question": "Which query removes table completely?",
+  "options": ["DROP", "DELETE", "TRUNCATE", "REMOVE"],
+  "correctAnswer": "DROP"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "hard",
+  "question": "Which query removes all rows but keeps table?",
+  "options": ["TRUNCATE", "DELETE", "DROP", "REMOVE"],
+  "correctAnswer": "TRUNCATE"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "hard",
+  "question": "Which SQL clause executes first?",
+  "options": ["FROM", "WHERE", "SELECT", "ORDER BY"],
+  "correctAnswer": "FROM"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "easy",
+  "question": "Why are transactions used?",
+  "options": ["Ensure consistency", "Increase speed", "Store data", "Encrypt data"],
+  "correctAnswer": "Ensure consistency"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "easy",
+  "question": "Which ACID property ensures all or nothing?",
+  "options": ["Atomicity", "Consistency", "Isolation", "Durability"],
+  "correctAnswer": "Atomicity"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "easy",
+  "question": "Which ACID property ensures valid state?",
+  "options": ["Consistency", "Atomicity", "Isolation", "Durability"],
+  "correctAnswer": "Consistency"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "easy",
+  "question": "Which ACID property ensures independent execution?",
+  "options": ["Isolation", "Atomicity", "Durability", "Consistency"],
+  "correctAnswer": "Isolation"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "easy",
+  "question": "Which ACID property ensures permanent storage?",
+  "options": ["Durability", "Isolation", "Consistency", "Atomicity"],
+  "correctAnswer": "Durability"
+},
+
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "medium",
+  "question": "Which problem occurs when two transactions update same data?",
+  "options": ["Lost update", "Dirty read", "Phantom read", "Deadlock"],
+  "correctAnswer": "Lost update"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "medium",
+  "question": "Which problem reads uncommitted data?",
+  "options": ["Dirty read", "Lost update", "Deadlock", "Phantom read"],
+  "correctAnswer": "Dirty read"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "medium",
+  "question": "Which state follows execution?",
+  "options": ["Active", "Committed", "Aborted", "Failed"],
+  "correctAnswer": "Active"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "medium",
+  "question": "Which state indicates successful completion?",
+  "options": ["Committed", "Failed", "Aborted", "Active"],
+  "correctAnswer": "Committed"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "medium",
+  "question": "Which condition leads to deadlock?",
+  "options": ["Mutual exclusion", "Preemption", "Parallelism", "None"],
+  "correctAnswer": "Mutual exclusion"
+},
+
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "hard",
+  "question": "Which technique avoids deadlock?",
+  "options": ["Timeout", "Indexing", "Sorting", "Normalization"],
+  "correctAnswer": "Timeout"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "hard",
+  "question": "Which schedule ensures serializability?",
+  "options": ["Serializable", "Non-serializable", "Parallel", "Random"],
+  "correctAnswer": "Serializable"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "hard",
+  "question": "Which isolation level prevents dirty reads?",
+  "options": ["Read Committed", "Read Uncommitted", "Serializable", "Repeatable Read"],
+  "correctAnswer": "Read Committed"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "hard",
+  "question": "Which problem causes inconsistent retrieval?",
+  "options": ["Phantom read", "Dirty read", "Lost update", "Deadlock"],
+  "correctAnswer": "Phantom read"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "hard",
+  "question": "Which locking avoids concurrency issues?",
+  "options": ["Two-phase locking", "Indexing", "Sorting", "Caching"],
+  "correctAnswer": "Two-phase locking"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "easy",
+  "question": "Why is indexing used?",
+  "options": ["Faster search", "More storage", "Sorting", "Encryption"],
+  "correctAnswer": "Faster search"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "easy",
+  "question": "Which index is automatically created?",
+  "options": ["Primary index", "Secondary index", "Clustered index", "None"],
+  "correctAnswer": "Primary index"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "easy",
+  "question": "Which index stores actual data?",
+  "options": ["Clustered", "Non-clustered", "Secondary", "Hash"],
+  "correctAnswer": "Clustered"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "easy",
+  "question": "Which index stores pointers?",
+  "options": ["Non-clustered", "Clustered", "Primary", "None"],
+  "correctAnswer": "Non-clustered"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "easy",
+  "question": "Which structure is used in indexing?",
+  "options": ["B-Tree", "Stack", "Queue", "Heap"],
+  "correctAnswer": "B-Tree"
+},
+
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "medium",
+  "question": "Which index is faster for range queries?",
+  "options": ["B-Tree", "Hash", "Stack", "Queue"],
+  "correctAnswer": "B-Tree"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "medium",
+  "question": "Which index is faster for exact match?",
+  "options": ["Hash", "B-Tree", "Clustered", "None"],
+  "correctAnswer": "Hash"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "medium",
+  "question": "Which index supports multiple columns?",
+  "options": ["Composite", "Single", "Hash", "Primary"],
+  "correctAnswer": "Composite"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "medium",
+  "question": "Which index improves join performance?",
+  "options": ["Foreign key index", "Primary key", "None", "Hash"],
+  "correctAnswer": "Foreign key index"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "medium",
+  "question": "Which index increases storage?",
+  "options": ["All indexes", "None", "Primary only", "Secondary only"],
+  "correctAnswer": "All indexes"
+},
+
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "hard",
+  "question": "Which index balances tree height?",
+  "options": ["B-Tree", "Hash", "Stack", "Queue"],
+  "correctAnswer": "B-Tree"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "hard",
+  "question": "Which index fails for range queries?",
+  "options": ["Hash", "B-Tree", "Composite", "Clustered"],
+  "correctAnswer": "Hash"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "hard",
+  "question": "Which index reduces disk access?",
+  "options": ["All indexes", "None", "Primary", "Hash"],
+  "correctAnswer": "All indexes"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "hard",
+  "question": "Which index is best for ordered data?",
+  "options": ["Clustered", "Hash", "None", "Stack"],
+  "correctAnswer": "Clustered"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "hard",
+  "question": "Which index speeds up SELECT queries?",
+  "options": ["All indexes", "None", "Primary only", "Secondary only"],
+  "correctAnswer": "All indexes"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "easy",
+  "question": "What does ER stand for?",
+  "options": ["Entity Relationship", "Error Relation", "Entity Record", "None"],
+  "correctAnswer": "Entity Relationship"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "easy",
+  "question": "What is an entity?",
+  "options": ["Object", "Relation", "Key", "Attribute"],
+  "correctAnswer": "Object"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "easy",
+  "question": "What is attribute?",
+  "options": ["Property", "Entity", "Relation", "Key"],
+  "correctAnswer": "Property"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "easy",
+  "question": "What represents relationship?",
+  "options": ["Diamond", "Rectangle", "Circle", "Line"],
+  "correctAnswer": "Diamond"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "easy",
+  "question": "What represents entity?",
+  "options": ["Rectangle", "Circle", "Diamond", "Line"],
+  "correctAnswer": "Rectangle"
+},
+
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "medium",
+  "question": "Which attribute uniquely identifies entity?",
+  "options": ["Key attribute", "Derived", "Composite", "Multi-valued"],
+  "correctAnswer": "Key attribute"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "medium",
+  "question": "Which attribute has multiple values?",
+  "options": ["Multi-valued", "Composite", "Derived", "Simple"],
+  "correctAnswer": "Multi-valued"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "medium",
+  "question": "Which attribute is calculated?",
+  "options": ["Derived", "Simple", "Composite", "Key"],
+  "correctAnswer": "Derived"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "medium",
+  "question": "Which relationship connects many entities?",
+  "options": ["Many-to-many", "One-to-one", "One-to-many", "None"],
+  "correctAnswer": "Many-to-many"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "medium",
+  "question": "Which diagram represents DB structure?",
+  "options": ["ER Diagram", "Flowchart", "Graph", "Tree"],
+  "correctAnswer": "ER Diagram"
+},
+
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "hard",
+  "question": "Which key uniquely identifies record?",
+  "options": ["Primary key", "Foreign key", "Composite key", "None"],
+  "correctAnswer": "Primary key"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "hard",
+  "question": "Which relationship ensures integrity?",
+  "options": ["Referential", "Functional", "Transitive", "None"],
+  "correctAnswer": "Referential"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "hard",
+  "question": "Which attribute combines multiple attributes?",
+  "options": ["Composite", "Derived", "Simple", "Key"],
+  "correctAnswer": "Composite"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "hard",
+  "question": "Which mapping converts ER to table?",
+  "options": ["Relational mapping", "Normalization", "Indexing", "Join"],
+  "correctAnswer": "Relational mapping"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "hard",
+  "question": "Which constraint enforces valid relation?",
+  "options": ["Integrity constraint", "Functional", "Transitive", "None"],
+  "correctAnswer": "Integrity constraint"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "easy",
+  "question": "Why does normalization reduce update anomalies?",
+  "options": ["By removing redundancy", "By sorting data", "By indexing", "By hashing"],
+  "correctAnswer": "By removing redundancy"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "easy",
+  "question": "Which normal form ensures atomic attributes?",
+  "options": ["1NF", "2NF", "3NF", "BCNF"],
+  "correctAnswer": "1NF"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "medium",
+  "question": "Which dependency type violates 2NF?",
+  "options": ["Partial dependency", "Functional dependency", "Join dependency", "None"],
+  "correctAnswer": "Partial dependency"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "medium",
+  "question": "Which key can have multiple attributes?",
+  "options": ["Composite key", "Primary key", "Foreign key", "Super key"],
+  "correctAnswer": "Composite key"
+},
+{
+  "subject": "DBMS",
+  "concept": "Normalization",
+  "difficulty": "hard",
+  "question": "Which normal form eliminates multivalued dependency anomalies?",
+  "options": ["4NF", "3NF", "2NF", "1NF"],
+  "correctAnswer": "4NF"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "easy",
+  "question": "Which SQL command updates existing data?",
+  "options": ["UPDATE", "INSERT", "DELETE", "SELECT"],
+  "correctAnswer": "UPDATE"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "easy",
+  "question": "Which clause limits output rows?",
+  "options": ["LIMIT", "WHERE", "GROUP BY", "ORDER BY"],
+  "correctAnswer": "LIMIT"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "medium",
+  "question": "Which clause is used with aggregate functions?",
+  "options": ["GROUP BY", "ORDER BY", "WHERE", "JOIN"],
+  "correctAnswer": "GROUP BY"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "medium",
+  "question": "Which keyword combines results of multiple SELECTs?",
+  "options": ["UNION", "JOIN", "MERGE", "GROUP"],
+  "correctAnswer": "UNION"
+},
+{
+  "subject": "DBMS",
+  "concept": "SQL Queries",
+  "difficulty": "hard",
+  "question": "Which SQL clause filters after grouping?",
+  "options": ["HAVING", "WHERE", "ORDER BY", "JOIN"],
+  "correctAnswer": "HAVING"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "easy",
+  "question": "Which operation finalizes transaction changes?",
+  "options": ["COMMIT", "ROLLBACK", "SAVEPOINT", "START"],
+  "correctAnswer": "COMMIT"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "easy",
+  "question": "Which operation undoes changes?",
+  "options": ["ROLLBACK", "COMMIT", "SAVEPOINT", "START"],
+  "correctAnswer": "ROLLBACK"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "medium",
+  "question": "Which problem occurs due to simultaneous updates?",
+  "options": ["Lost update", "Dirty read", "Deadlock", "Phantom read"],
+  "correctAnswer": "Lost update"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "medium",
+  "question": "Which isolation level prevents dirty reads?",
+  "options": ["Read Committed", "Read Uncommitted", "Serializable", "Repeatable Read"],
+  "correctAnswer": "Read Committed"
+},
+{
+  "subject": "DBMS",
+  "concept": "Transactions",
+  "difficulty": "hard",
+  "question": "Which mechanism ensures transaction rollback safety?",
+  "options": ["Logging", "Indexing", "Sorting", "Normalization"],
+  "correctAnswer": "Logging"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "easy",
+  "question": "Which index improves lookup speed?",
+  "options": ["All indexes", "None", "Primary only", "Secondary only"],
+  "correctAnswer": "All indexes"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "easy",
+  "question": "Which index is unique?",
+  "options": ["Primary index", "Secondary index", "Hash index", "None"],
+  "correctAnswer": "Primary index"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "medium",
+  "question": "Which index supports fast equality search?",
+  "options": ["Hash index", "B-Tree", "Composite", "Clustered"],
+  "correctAnswer": "Hash index"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "medium",
+  "question": "Which index organizes data physically?",
+  "options": ["Clustered", "Non-clustered", "Hash", "Composite"],
+  "correctAnswer": "Clustered"
+},
+{
+  "subject": "DBMS",
+  "concept": "Indexing",
+  "difficulty": "hard",
+  "question": "Which index is inefficient for range queries?",
+  "options": ["Hash", "B-Tree", "Clustered", "Composite"],
+  "correctAnswer": "Hash"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "easy",
+  "question": "Which symbol represents attributes?",
+  "options": ["Oval", "Rectangle", "Diamond", "Line"],
+  "correctAnswer": "Oval"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "easy",
+  "question": "Which attribute cannot be divided further?",
+  "options": ["Simple", "Composite", "Derived", "Key"],
+  "correctAnswer": "Simple"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "medium",
+  "question": "Which key uniquely identifies entity?",
+  "options": ["Primary key", "Foreign key", "Composite key", "None"],
+  "correctAnswer": "Primary key"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "medium",
+  "question": "Which relationship connects one entity to many?",
+  "options": ["One-to-many", "One-to-one", "Many-to-many", "None"],
+  "correctAnswer": "One-to-many"
+},
+{
+  "subject": "DBMS",
+  "concept": "ER Model",
+  "difficulty": "hard",
+  "question": "Which mapping converts ER diagram to tables?",
+  "options": ["Relational mapping", "Normalization", "Indexing", "Join"],
+  "correctAnswer": "Relational mapping"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "easy",
+  "question": "Why is a process different from a program?",
+  "options": ["Process is execution instance", "Program uses CPU", "Process is stored", "Program is dynamic"],
+  "correctAnswer": "Process is execution instance"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "easy",
+  "question": "Which state follows ready state?",
+  "options": ["Running", "Waiting", "Terminated", "Blocked"],
+  "correctAnswer": "Running"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "easy",
+  "question": "Which state waits for I/O?",
+  "options": ["Waiting", "Running", "Ready", "Terminated"],
+  "correctAnswer": "Waiting"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "easy",
+  "question": "Which component stores process information?",
+  "options": ["PCB", "CPU", "RAM", "Disk"],
+  "correctAnswer": "PCB"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "easy",
+  "question": "Which process state means finished execution?",
+  "options": ["Terminated", "Ready", "Running", "Waiting"],
+  "correctAnswer": "Terminated"
+},
+
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "medium",
+  "question": "Which scheduling decision moves process to CPU?",
+  "options": ["Dispatcher", "Loader", "Scheduler", "Compiler"],
+  "correctAnswer": "Dispatcher"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "medium",
+  "question": "Which queue stores ready processes?",
+  "options": ["Ready queue", "Waiting queue", "Job queue", "I/O queue"],
+  "correctAnswer": "Ready queue"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "medium",
+  "question": "Which state transition occurs after I/O completion?",
+  "options": ["Waiting → Ready", "Ready → Running", "Running → Waiting", "Running → Terminated"],
+  "correctAnswer": "Waiting → Ready"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "medium",
+  "question": "Which mechanism allows communication between processes?",
+  "options": ["IPC", "CPU", "Disk", "Scheduler"],
+  "correctAnswer": "IPC"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "medium",
+  "question": "Which operation creates a new process?",
+  "options": ["fork()", "exec()", "wait()", "kill()"],
+  "correctAnswer": "fork()"
+},
+
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "hard",
+  "question": "Which situation causes race condition?",
+  "options": ["Shared resource access", "Single process", "Sequential execution", "No memory"],
+  "correctAnswer": "Shared resource access"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "hard",
+  "question": "Which mechanism prevents race conditions?",
+  "options": ["Mutex", "Queue", "Stack", "Paging"],
+  "correctAnswer": "Mutex"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "hard",
+  "question": "Which issue arises in concurrent processes?",
+  "options": ["Deadlock", "Sorting", "Searching", "Compilation"],
+  "correctAnswer": "Deadlock"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "hard",
+  "question": "Which mechanism synchronizes processes?",
+  "options": ["Semaphore", "Heap", "Stack", "Disk"],
+  "correctAnswer": "Semaphore"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "hard",
+  "question": "Which problem occurs when process waits indefinitely?",
+  "options": ["Starvation", "Deadlock", "Fragmentation", "Paging"],
+  "correctAnswer": "Starvation"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "easy",
+  "question": "Which scheduling is simplest?",
+  "options": ["FCFS", "SJF", "RR", "Priority"],
+  "correctAnswer": "FCFS"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "easy",
+  "question": "Which scheduling uses time quantum?",
+  "options": ["Round Robin", "FCFS", "SJF", "Priority"],
+  "correctAnswer": "Round Robin"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "easy",
+  "question": "Which scheduling selects shortest job?",
+  "options": ["SJF", "FCFS", "RR", "Priority"],
+  "correctAnswer": "SJF"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "easy",
+  "question": "Which scheduling uses priority?",
+  "options": ["Priority", "FCFS", "RR", "SJF"],
+  "correctAnswer": "Priority"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "easy",
+  "question": "Which scheduling can cause starvation?",
+  "options": ["SJF", "FCFS", "RR", "None"],
+  "correctAnswer": "SJF"
+},
+
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "medium",
+  "question": "Which scheduling minimizes waiting time?",
+  "options": ["SJF", "FCFS", "RR", "Priority"],
+  "correctAnswer": "SJF"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "medium",
+  "question": "Which scheduling is preemptive?",
+  "options": ["RR", "FCFS", "Non-preemptive SJF", "None"],
+  "correctAnswer": "RR"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "medium",
+  "question": "Which scheduling avoids starvation?",
+  "options": ["RR", "SJF", "Priority", "FCFS"],
+  "correctAnswer": "RR"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "medium",
+  "question": "Which metric measures completion time?",
+  "options": ["Turnaround time", "Waiting time", "Response time", "Execution time"],
+  "correctAnswer": "Turnaround time"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "medium",
+  "question": "Which metric measures delay before execution?",
+  "options": ["Waiting time", "Turnaround time", "Response time", "Execution time"],
+  "correctAnswer": "Waiting time"
+},
+
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "hard",
+  "question": "Which scheduling is best for time-sharing systems?",
+  "options": ["Round Robin", "FCFS", "SJF", "Priority"],
+  "correctAnswer": "Round Robin"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "hard",
+  "question": "Which scheduling causes convoy effect?",
+  "options": ["FCFS", "RR", "SJF", "Priority"],
+  "correctAnswer": "FCFS"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "hard",
+  "question": "Which scheduling improves response time?",
+  "options": ["RR", "FCFS", "SJF", "Priority"],
+  "correctAnswer": "RR"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "hard",
+  "question": "Which scheduling may require aging?",
+  "options": ["Priority", "RR", "FCFS", "SJF"],
+  "correctAnswer": "Priority"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "hard",
+  "question": "Which scheduling uses dynamic priorities?",
+  "options": ["Priority", "FCFS", "RR", "SJF"],
+  "correctAnswer": "Priority"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "easy",
+  "question": "Why is memory management needed?",
+  "options": ["Efficient allocation", "Increase CPU speed", "Reduce storage", "Encrypt data"],
+  "correctAnswer": "Efficient allocation"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "easy",
+  "question": "Which technique divides memory into pages?",
+  "options": ["Paging", "Segmentation", "Swapping", "Caching"],
+  "correctAnswer": "Paging"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "easy",
+  "question": "Which technique divides memory into segments?",
+  "options": ["Segmentation", "Paging", "Swapping", "Heap"],
+  "correctAnswer": "Segmentation"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "easy",
+  "question": "Which memory is fastest?",
+  "options": ["Cache", "RAM", "Disk", "Virtual"],
+  "correctAnswer": "Cache"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "easy",
+  "question": "Which memory is volatile?",
+  "options": ["RAM", "ROM", "Disk", "Cache"],
+  "correctAnswer": "RAM"
+},
+
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "medium",
+  "question": "Which issue occurs due to unused memory gaps?",
+  "options": ["Fragmentation", "Deadlock", "Paging", "Thrashing"],
+  "correctAnswer": "Fragmentation"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "medium",
+  "question": "Which type of fragmentation occurs in paging?",
+  "options": ["Internal", "External", "Both", "None"],
+  "correctAnswer": "Internal"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "medium",
+  "question": "Which type occurs in segmentation?",
+  "options": ["External", "Internal", "Both", "None"],
+  "correctAnswer": "External"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "medium",
+  "question": "Which technique swaps processes in/out?",
+  "options": ["Swapping", "Paging", "Segmentation", "Caching"],
+  "correctAnswer": "Swapping"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "medium",
+  "question": "Which issue occurs due to excessive paging?",
+  "options": ["Thrashing", "Fragmentation", "Deadlock", "Starvation"],
+  "correctAnswer": "Thrashing"
+},
+
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "hard",
+  "question": "Which algorithm replaces least used page?",
+  "options": ["LRU", "FIFO", "Optimal", "Random"],
+  "correctAnswer": "LRU"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "hard",
+  "question": "Which algorithm replaces oldest page?",
+  "options": ["FIFO", "LRU", "Optimal", "Random"],
+  "correctAnswer": "FIFO"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "hard",
+  "question": "Which algorithm gives best performance theoretically?",
+  "options": ["Optimal", "LRU", "FIFO", "Random"],
+  "correctAnswer": "Optimal"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "hard",
+  "question": "Which concept maps logical to physical address?",
+  "options": ["Address mapping", "Paging", "Segmentation", "All"],
+  "correctAnswer": "All"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "hard",
+  "question": "Which issue causes system slowdown due to frequent page faults?",
+  "options": ["Thrashing", "Deadlock", "Starvation", "Fragmentation"],
+  "correctAnswer": "Thrashing"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "easy",
+  "question": "What is a deadlock?",
+  "options": ["Processes waiting indefinitely", "Fast execution", "Memory issue", "CPU overload"],
+  "correctAnswer": "Processes waiting indefinitely"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "easy",
+  "question": "How many conditions cause deadlock?",
+  "options": ["4", "2", "3", "5"],
+  "correctAnswer": "4"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "easy",
+  "question": "Which condition involves holding resource?",
+  "options": ["Hold and wait", "Mutual exclusion", "No preemption", "Circular wait"],
+  "correctAnswer": "Hold and wait"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "easy",
+  "question": "Which condition prevents resource sharing?",
+  "options": ["Mutual exclusion", "Hold and wait", "Circular wait", "No preemption"],
+  "correctAnswer": "Mutual exclusion"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "easy",
+  "question": "Which condition forms cycle?",
+  "options": ["Circular wait", "Mutual exclusion", "No preemption", "Hold and wait"],
+  "correctAnswer": "Circular wait"
+},
+
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "medium",
+  "question": "Which method avoids deadlock?",
+  "options": ["Avoidance", "Detection", "Prevention", "All"],
+  "correctAnswer": "All"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "medium",
+  "question": "Which algorithm avoids deadlock?",
+  "options": ["Banker's algorithm", "FIFO", "LRU", "SJF"],
+  "correctAnswer": "Banker's algorithm"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "medium",
+  "question": "Which graph represents deadlock?",
+  "options": ["Resource allocation graph", "Tree", "Stack", "Queue"],
+  "correctAnswer": "Resource allocation graph"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "medium",
+  "question": "Which technique detects deadlock?",
+  "options": ["Cycle detection", "Sorting", "Paging", "Indexing"],
+  "correctAnswer": "Cycle detection"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "medium",
+  "question": "Which condition allows preemption?",
+  "options": ["No preemption removal", "Mutual exclusion", "Circular wait", "None"],
+  "correctAnswer": "No preemption removal"
+},
+
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "hard",
+  "question": "Which condition must be removed to avoid deadlock?",
+  "options": ["Any one", "All", "None", "Two"],
+  "correctAnswer": "Any one"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "hard",
+  "question": "Which deadlock solution is costly?",
+  "options": ["Detection", "Avoidance", "Prevention", "None"],
+  "correctAnswer": "Detection"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "hard",
+  "question": "Which technique requires future knowledge?",
+  "options": ["Avoidance", "Detection", "Prevention", "None"],
+  "correctAnswer": "Avoidance"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "hard",
+  "question": "Which technique breaks circular wait?",
+  "options": ["Prevention", "Detection", "Avoidance", "None"],
+  "correctAnswer": "Prevention"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "hard",
+  "question": "Which technique recovers after deadlock?",
+  "options": ["Detection", "Avoidance", "Prevention", "None"],
+  "correctAnswer": "Detection"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "easy",
+  "question": "What is file system?",
+  "options": ["Data storage method", "CPU unit", "Memory unit", "Process"],
+  "correctAnswer": "Data storage method"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "easy",
+  "question": "Which structure organizes files?",
+  "options": ["Directory", "Stack", "Queue", "Heap"],
+  "correctAnswer": "Directory"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "easy",
+  "question": "Which file type stores text?",
+  "options": ["Text file", "Binary file", "Executable", "None"],
+  "correctAnswer": "Text file"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "easy",
+  "question": "Which access is sequential?",
+  "options": ["Sequential access", "Direct access", "Random access", "Indexed"],
+  "correctAnswer": "Sequential access"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "easy",
+  "question": "Which access jumps directly?",
+  "options": ["Direct access", "Sequential", "Indexed", "None"],
+  "correctAnswer": "Direct access"
+},
+
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "medium",
+  "question": "Which allocation uses contiguous blocks?",
+  "options": ["Contiguous", "Linked", "Indexed", "None"],
+  "correctAnswer": "Contiguous"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "medium",
+  "question": "Which allocation avoids fragmentation?",
+  "options": ["Indexed", "Contiguous", "Linked", "None"],
+  "correctAnswer": "Indexed"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "medium",
+  "question": "Which allocation uses pointers?",
+  "options": ["Linked", "Contiguous", "Indexed", "None"],
+  "correctAnswer": "Linked"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "medium",
+  "question": "Which structure stores file metadata?",
+  "options": ["Inode", "Directory", "Block", "Buffer"],
+  "correctAnswer": "Inode"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "medium",
+  "question": "Which operation reads file?",
+  "options": ["Read", "Write", "Delete", "Create"],
+  "correctAnswer": "Read"
+},
+
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "hard",
+  "question": "Which allocation gives fastest access?",
+  "options": ["Contiguous", "Linked", "Indexed", "None"],
+  "correctAnswer": "Contiguous"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "hard",
+  "question": "Which allocation is flexible?",
+  "options": ["Linked", "Contiguous", "Indexed", "None"],
+  "correctAnswer": "Linked"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "hard",
+  "question": "Which allocation uses index block?",
+  "options": ["Indexed", "Linked", "Contiguous", "None"],
+  "correctAnswer": "Indexed"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "hard",
+  "question": "Which issue occurs in contiguous allocation?",
+  "options": ["Fragmentation", "Deadlock", "Thrashing", "Starvation"],
+  "correctAnswer": "Fragmentation"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "hard",
+  "question": "Which system ensures file security?",
+  "options": ["Permissions", "Paging", "Scheduling", "Indexing"],
+  "correctAnswer": "Permissions"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "easy",
+  "question": "Why is context switching required?",
+  "options": ["Switch CPU between processes", "Increase memory", "Store data", "Reduce disk"],
+  "correctAnswer": "Switch CPU between processes"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "easy",
+  "question": "Which structure holds process state during switch?",
+  "options": ["PCB", "Stack", "Queue", "Heap"],
+  "correctAnswer": "PCB"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "medium",
+  "question": "Which system call replaces process memory?",
+  "options": ["exec()", "fork()", "wait()", "kill()"],
+  "correctAnswer": "exec()"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "medium",
+  "question": "Which problem occurs without synchronization?",
+  "options": ["Race condition", "Deadlock", "Paging", "Fragmentation"],
+  "correctAnswer": "Race condition"
+},
+{
+  "subject": "OS",
+  "concept": "Process Management",
+  "difficulty": "hard",
+  "question": "Which mechanism ensures mutual exclusion efficiently?",
+  "options": ["Semaphore", "Queue", "Stack", "Paging"],
+  "correctAnswer": "Semaphore"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "easy",
+  "question": "Which scheduling algorithm is non-preemptive?",
+  "options": ["FCFS", "RR", "Preemptive SJF", "Priority"],
+  "correctAnswer": "FCFS"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "easy",
+  "question": "Which scheduling improves fairness?",
+  "options": ["Round Robin", "FCFS", "SJF", "Priority"],
+  "correctAnswer": "Round Robin"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "medium",
+  "question": "Which scheduling uses shortest remaining time?",
+  "options": ["SRTF", "FCFS", "RR", "Priority"],
+  "correctAnswer": "SRTF"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "medium",
+  "question": "Which factor affects scheduling performance?",
+  "options": ["Burst time", "Memory size", "Disk speed", "File size"],
+  "correctAnswer": "Burst time"
+},
+{
+  "subject": "OS",
+  "concept": "CPU Scheduling",
+  "difficulty": "hard",
+  "question": "Which technique prevents starvation in priority scheduling?",
+  "options": ["Aging", "Paging", "Swapping", "Caching"],
+  "correctAnswer": "Aging"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "easy",
+  "question": "Which concept provides illusion of large memory?",
+  "options": ["Virtual memory", "Cache", "RAM", "ROM"],
+  "correctAnswer": "Virtual memory"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "easy",
+  "question": "Which component translates addresses?",
+  "options": ["MMU", "CPU", "Disk", "Cache"],
+  "correctAnswer": "MMU"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "medium",
+  "question": "Which page replacement uses recent usage?",
+  "options": ["LRU", "FIFO", "Optimal", "Random"],
+  "correctAnswer": "LRU"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "medium",
+  "question": "Which issue arises from excessive swapping?",
+  "options": ["Thrashing", "Deadlock", "Fragmentation", "Starvation"],
+  "correctAnswer": "Thrashing"
+},
+{
+  "subject": "OS",
+  "concept": "Memory Management",
+  "difficulty": "hard",
+  "question": "Which technique combines paging and segmentation?",
+  "options": ["Paged segmentation", "Swapping", "Caching", "Stack"],
+  "correctAnswer": "Paged segmentation"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "easy",
+  "question": "Which condition allows only one process at a time?",
+  "options": ["Mutual exclusion", "Circular wait", "Hold and wait", "No preemption"],
+  "correctAnswer": "Mutual exclusion"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "easy",
+  "question": "Which condition prevents resource force release?",
+  "options": ["No preemption", "Mutual exclusion", "Circular wait", "Hold and wait"],
+  "correctAnswer": "No preemption"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "medium",
+  "question": "Which method avoids deadlock by safe state?",
+  "options": ["Banker's algorithm", "FIFO", "LRU", "SJF"],
+  "correctAnswer": "Banker's algorithm"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "medium",
+  "question": "Which method detects cycles in graph?",
+  "options": ["Graph cycle detection", "Sorting", "Paging", "Caching"],
+  "correctAnswer": "Graph cycle detection"
+},
+{
+  "subject": "OS",
+  "concept": "Deadlocks",
+  "difficulty": "hard",
+  "question": "Which technique eliminates hold-and-wait condition?",
+  "options": ["Prevention", "Detection", "Avoidance", "Recovery"],
+  "correctAnswer": "Prevention"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "easy",
+  "question": "Which structure organizes files hierarchically?",
+  "options": ["Directory tree", "Stack", "Queue", "Heap"],
+  "correctAnswer": "Directory tree"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "easy",
+  "question": "Which operation creates new file?",
+  "options": ["Create", "Read", "Write", "Delete"],
+  "correctAnswer": "Create"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "medium",
+  "question": "Which allocation method uses pointers for blocks?",
+  "options": ["Linked allocation", "Contiguous", "Indexed", "None"],
+  "correctAnswer": "Linked allocation"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "medium",
+  "question": "Which method reduces fragmentation?",
+  "options": ["Indexed allocation", "Contiguous", "Linked", "None"],
+  "correctAnswer": "Indexed allocation"
+},
+{
+  "subject": "OS",
+  "concept": "File Systems",
+  "difficulty": "hard",
+  "question": "Which system stores metadata separately from data blocks?",
+  "options": ["Indexed allocation", "Contiguous", "Linked", "None"],
+  "correctAnswer": "Indexed allocation"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "easy",
+  "question": "Why is encapsulation used in Java?",
+  "options": ["Data hiding", "Increase speed", "Reduce memory", "Avoid loops"],
+  "correctAnswer": "Data hiding"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "easy",
+  "question": "Which feature allows same method name with different behavior?",
+  "options": ["Polymorphism", "Encapsulation", "Inheritance", "Abstraction"],
+  "correctAnswer": "Polymorphism"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "easy",
+  "question": "Which keyword defines a class?",
+  "options": ["class", "object", "define", "new"],
+  "correctAnswer": "class"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "easy",
+  "question": "Which concept hides implementation details?",
+  "options": ["Abstraction", "Encapsulation", "Inheritance", "Polymorphism"],
+  "correctAnswer": "Abstraction"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "easy",
+  "question": "Which keyword creates object?",
+  "options": ["new", "class", "object", "this"],
+  "correctAnswer": "new"
+},
+
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "medium",
+  "question": "Which concept allows reuse of code?",
+  "options": ["Inheritance", "Polymorphism", "Encapsulation", "Abstraction"],
+  "correctAnswer": "Inheritance"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "medium",
+  "question": "Which method is called automatically on object creation?",
+  "options": ["Constructor", "Main", "Static", "Init"],
+  "correctAnswer": "Constructor"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "medium",
+  "question": "Which keyword refers to current object?",
+  "options": ["this", "super", "self", "object"],
+  "correctAnswer": "this"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "medium",
+  "question": "Which keyword refers parent class?",
+  "options": ["super", "this", "parent", "base"],
+  "correctAnswer": "super"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "medium",
+  "question": "Which concept improves flexibility?",
+  "options": ["Polymorphism", "Inheritance", "Encapsulation", "Abstraction"],
+  "correctAnswer": "Polymorphism"
+},
+
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "hard",
+  "question": "What is output?\nclass A{int x=5;} class B extends A{int x=10;} class Test{public static void main(String[] args){B obj=new B(); System.out.println(obj.x);}}",
+  "options": ["10", "5", "Error", "0"],
+  "correctAnswer": "10"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "hard",
+  "question": "Which concept binds method at runtime?",
+  "options": ["Dynamic binding", "Static binding", "Encapsulation", "Abstraction"],
+  "correctAnswer": "Dynamic binding"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "hard",
+  "question": "Which keyword prevents inheritance?",
+  "options": ["final", "static", "private", "protected"],
+  "correctAnswer": "final"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "hard",
+  "question": "Which concept allows multiple behaviors?",
+  "options": ["Polymorphism", "Encapsulation", "Inheritance", "Abstraction"],
+  "correctAnswer": "Polymorphism"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "hard",
+  "question": "Which feature allows method overriding?",
+  "options": ["Runtime polymorphism", "Compile time", "Encapsulation", "None"],
+  "correctAnswer": "Runtime polymorphism"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "easy",
+  "question": "Which keyword is used for inheritance?",
+  "options": ["extends", "implements", "inherit", "super"],
+  "correctAnswer": "extends"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "easy",
+  "question": "Which type allows multiple parents?",
+  "options": ["Multiple inheritance", "Single", "Multilevel", "Hierarchical"],
+  "correctAnswer": "Multiple inheritance"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "easy",
+  "question": "Java supports multiple inheritance using?",
+  "options": ["Interfaces", "Classes", "Abstract class", "None"],
+  "correctAnswer": "Interfaces"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "easy",
+  "question": "Which method overrides parent?",
+  "options": ["Same name and parameters", "Different name", "Static", "Final"],
+  "correctAnswer": "Same name and parameters"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "easy",
+  "question": "Which type forms chain?",
+  "options": ["Multilevel", "Single", "Hierarchical", "Multiple"],
+  "correctAnswer": "Multilevel"
+},
+
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "medium",
+  "question": "Which keyword calls parent constructor?",
+  "options": ["super()", "this()", "parent()", "base()"],
+  "correctAnswer": "super()"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "medium",
+  "question": "Which concept improves code reuse?",
+  "options": ["Inheritance", "Polymorphism", "Encapsulation", "Abstraction"],
+  "correctAnswer": "Inheritance"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "medium",
+  "question": "Which method is overridden?",
+  "options": ["Instance method", "Static", "Final", "Private"],
+  "correctAnswer": "Instance method"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "medium",
+  "question": "Which keyword restricts overriding?",
+  "options": ["final", "static", "abstract", "private"],
+  "correctAnswer": "final"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "medium",
+  "question": "Which concept uses same method name different parameters?",
+  "options": ["Overloading", "Overriding", "Inheritance", "Encapsulation"],
+  "correctAnswer": "Overloading"
+},
+
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "hard",
+  "question": "What is output?\nclass A{void show(){System.out.println(\"A\");}} class B extends A{void show(){System.out.println(\"B\");}} class Test{public static void main(String[] args){A obj=new B(); obj.show();}}",
+  "options": ["B", "A", "Error", "None"],
+  "correctAnswer": "B"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "hard",
+  "question": "Which binding occurs in overriding?",
+  "options": ["Dynamic binding", "Static binding", "Early binding", "None"],
+  "correctAnswer": "Dynamic binding"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "hard",
+  "question": "Which method cannot be overridden?",
+  "options": ["Final", "Public", "Protected", "Default"],
+  "correctAnswer": "Final"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "hard",
+  "question": "Which concept uses interface implementation?",
+  "options": ["Multiple inheritance", "Single", "Multilevel", "None"],
+  "correctAnswer": "Multiple inheritance"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "hard",
+  "question": "Which polymorphism happens at compile time?",
+  "options": ["Overloading", "Overriding", "Dynamic binding", "None"],
+  "correctAnswer": "Overloading"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "easy",
+  "question": "Why is exception handling used?",
+  "options": ["Handle runtime errors", "Increase speed", "Store data", "Compile code"],
+  "correctAnswer": "Handle runtime errors"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "easy",
+  "question": "Which keyword handles exceptions?",
+  "options": ["catch", "try", "throw", "finally"],
+  "correctAnswer": "catch"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "easy",
+  "question": "Which block is always executed?",
+  "options": ["finally", "catch", "try", "throw"],
+  "correctAnswer": "finally"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "easy",
+  "question": "Which keyword is used to throw exception?",
+  "options": ["throw", "throws", "try", "catch"],
+  "correctAnswer": "throw"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "easy",
+  "question": "Which type occurs at compile time?",
+  "options": ["Checked", "Unchecked", "Runtime", "Logical"],
+  "correctAnswer": "Checked"
+},
+
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "medium",
+  "question": "Which exception occurs during division by zero?",
+  "options": ["ArithmeticException", "NullPointerException", "IOException", "ArrayIndexOutOfBounds"],
+  "correctAnswer": "ArithmeticException"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "medium",
+  "question": "Which exception occurs for null object access?",
+  "options": ["NullPointerException", "ArithmeticException", "IOException", "ClassNotFound"],
+  "correctAnswer": "NullPointerException"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "medium",
+  "question": "Which keyword declares exception?",
+  "options": ["throws", "throw", "catch", "try"],
+  "correctAnswer": "throws"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "medium",
+  "question": "Which block encloses risky code?",
+  "options": ["try", "catch", "finally", "throw"],
+  "correctAnswer": "try"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "medium",
+  "question": "Which exception is unchecked?",
+  "options": ["RuntimeException", "IOException", "SQLException", "FileNotFound"],
+  "correctAnswer": "RuntimeException"
+},
+
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "hard",
+  "question": "What is output?\ntry{int a=5/0;}catch(Exception e){System.out.println(\"Handled\");}",
+  "options": ["Handled", "Error", "0", "Nothing"],
+  "correctAnswer": "Handled"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "hard",
+  "question": "Which block executes after try even without exception?",
+  "options": ["finally", "catch", "throw", "none"],
+  "correctAnswer": "finally"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "hard",
+  "question": "Which exception is parent of all?",
+  "options": ["Exception", "Error", "Throwable", "Runtime"],
+  "correctAnswer": "Throwable"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "hard",
+  "question": "Which method prints exception details?",
+  "options": ["printStackTrace()", "toString()", "getMessage()", "show()"],
+  "correctAnswer": "printStackTrace()"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "hard",
+  "question": "Which keyword rethrows exception?",
+  "options": ["throw", "throws", "catch", "try"],
+  "correctAnswer": "throw"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "easy",
+  "question": "Which collection stores unique elements?",
+  "options": ["Set", "List", "Map", "Queue"],
+  "correctAnswer": "Set"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "easy",
+  "question": "Which collection allows duplicates?",
+  "options": ["List", "Set", "Map", "None"],
+  "correctAnswer": "List"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "easy",
+  "question": "Which collection stores key-value pairs?",
+  "options": ["Map", "Set", "List", "Queue"],
+  "correctAnswer": "Map"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "easy",
+  "question": "Which list is resizable?",
+  "options": ["ArrayList", "Array", "Stack", "Queue"],
+  "correctAnswer": "ArrayList"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "easy",
+  "question": "Which collection follows FIFO?",
+  "options": ["Queue", "Stack", "List", "Set"],
+  "correctAnswer": "Queue"
+},
+
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "medium",
+  "question": "Which collection is synchronized?",
+  "options": ["Vector", "ArrayList", "HashSet", "HashMap"],
+  "correctAnswer": "Vector"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "medium",
+  "question": "Which map maintains insertion order?",
+  "options": ["LinkedHashMap", "HashMap", "TreeMap", "None"],
+  "correctAnswer": "LinkedHashMap"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "medium",
+  "question": "Which collection sorts elements?",
+  "options": ["TreeSet", "HashSet", "ArrayList", "Queue"],
+  "correctAnswer": "TreeSet"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "medium",
+  "question": "Which method adds element?",
+  "options": ["add()", "put()", "insert()", "push()"],
+  "correctAnswer": "add()"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "medium",
+  "question": "Which structure allows null key?",
+  "options": ["HashMap", "TreeMap", "Hashtable", "None"],
+  "correctAnswer": "HashMap"
+},
+
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "hard",
+  "question": "Which map sorts keys?",
+  "options": ["TreeMap", "HashMap", "LinkedHashMap", "None"],
+  "correctAnswer": "TreeMap"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "hard",
+  "question": "Which structure is thread-safe?",
+  "options": ["Hashtable", "HashMap", "TreeMap", "None"],
+  "correctAnswer": "Hashtable"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "hard",
+  "question": "Which collection uses hashing?",
+  "options": ["HashSet", "TreeSet", "ArrayList", "Queue"],
+  "correctAnswer": "HashSet"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "hard",
+  "question": "Which list is faster for insertion?",
+  "options": ["LinkedList", "ArrayList", "Vector", "None"],
+  "correctAnswer": "LinkedList"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "hard",
+  "question": "Which collection is best for search?",
+  "options": ["HashSet", "ArrayList", "LinkedList", "Queue"],
+  "correctAnswer": "HashSet"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "easy",
+  "question": "Why multithreading is used?",
+  "options": ["Parallel execution", "Memory saving", "Compilation", "Storage"],
+  "correctAnswer": "Parallel execution"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "easy",
+  "question": "Which class creates thread?",
+  "options": ["Thread", "Runnable", "Process", "Task"],
+  "correctAnswer": "Thread"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "easy",
+  "question": "Which method starts thread?",
+  "options": ["start()", "run()", "execute()", "begin()"],
+  "correctAnswer": "start()"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "easy",
+  "question": "Which method contains thread code?",
+  "options": ["run()", "start()", "execute()", "main()"],
+  "correctAnswer": "run()"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "easy",
+  "question": "Which state executes thread?",
+  "options": ["Running", "Waiting", "Blocked", "New"],
+  "correctAnswer": "Running"
+},
+
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "medium",
+  "question": "Which method pauses thread?",
+  "options": ["sleep()", "wait()", "stop()", "pause()"],
+  "correctAnswer": "sleep()"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "medium",
+  "question": "Which method waits for thread completion?",
+  "options": ["join()", "sleep()", "wait()", "stop()"],
+  "correctAnswer": "join()"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "medium",
+  "question": "Which keyword prevents race condition?",
+  "options": ["synchronized", "static", "final", "volatile"],
+  "correctAnswer": "synchronized"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "medium",
+  "question": "Which method stops thread?",
+  "options": ["interrupt()", "stop()", "sleep()", "wait()"],
+  "correctAnswer": "interrupt()"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "medium",
+  "question": "Which concept avoids data inconsistency?",
+  "options": ["Synchronization", "Inheritance", "Encapsulation", "Abstraction"],
+  "correctAnswer": "Synchronization"
+},
+
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "hard",
+  "question": "Which issue occurs with shared data?",
+  "options": ["Race condition", "Deadlock", "Fragmentation", "Paging"],
+  "correctAnswer": "Race condition"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "hard",
+  "question": "Which mechanism prevents thread interference?",
+  "options": ["Synchronization", "Paging", "Scheduling", "Indexing"],
+  "correctAnswer": "Synchronization"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "hard",
+  "question": "Which state waits indefinitely?",
+  "options": ["Waiting", "Running", "Blocked", "New"],
+  "correctAnswer": "Waiting"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "hard",
+  "question": "Which issue occurs due to improper locking?",
+  "options": ["Deadlock", "Paging", "Fragmentation", "Scheduling"],
+  "correctAnswer": "Deadlock"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "hard",
+  "question": "Which method notifies waiting thread?",
+  "options": ["notify()", "wait()", "sleep()", "join()"],
+  "correctAnswer": "notify()"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "easy",
+  "question": "Why is abstraction useful in large systems?",
+  "options": ["Hide complexity", "Increase memory", "Improve syntax", "Reduce CPU"],
+  "correctAnswer": "Hide complexity"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "easy",
+  "question": "Which concept binds data and methods together?",
+  "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+  "correctAnswer": "Encapsulation"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "medium",
+  "question": "Which keyword is used for abstract class?",
+  "options": ["abstract", "final", "static", "class"],
+  "correctAnswer": "abstract"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "medium",
+  "question": "Which concept supports method overriding?",
+  "options": ["Runtime polymorphism", "Compile-time", "Encapsulation", "None"],
+  "correctAnswer": "Runtime polymorphism"
+},
+{
+  "subject": "JAVA",
+  "concept": "OOP",
+  "difficulty": "hard",
+  "question": "What is output?\nclass A{int x=5;} class Test{public static void main(String[] args){A obj=new A(); System.out.println(obj.x);}}",
+  "options": ["5", "0", "Error", "Null"],
+  "correctAnswer": "5"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "easy",
+  "question": "Which type has one parent and many children?",
+  "options": ["Hierarchical", "Single", "Multilevel", "Multiple"],
+  "correctAnswer": "Hierarchical"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "easy",
+  "question": "Which keyword implements interface?",
+  "options": ["implements", "extends", "super", "this"],
+  "correctAnswer": "implements"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "medium",
+  "question": "Which keyword prevents method overriding?",
+  "options": ["final", "static", "abstract", "private"],
+  "correctAnswer": "final"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "medium",
+  "question": "Which concept resolves method call at runtime?",
+  "options": ["Dynamic binding", "Static binding", "Compile binding", "None"],
+  "correctAnswer": "Dynamic binding"
+},
+{
+  "subject": "JAVA",
+  "concept": "Inheritance",
+  "difficulty": "hard",
+  "question": "What is output?\nclass A{void show(){System.out.println(\"A\");}} class B extends A{} class Test{public static void main(String[] args){B obj=new B(); obj.show();}}",
+  "options": ["A", "B", "Error", "None"],
+  "correctAnswer": "A"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "easy",
+  "question": "Which block must come first?",
+  "options": ["try", "catch", "finally", "throw"],
+  "correctAnswer": "try"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "easy",
+  "question": "Which keyword handles multiple exceptions?",
+  "options": ["catch", "try", "throw", "finally"],
+  "correctAnswer": "catch"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "medium",
+  "question": "Which exception occurs for invalid index?",
+  "options": ["ArrayIndexOutOfBoundsException", "NullPointerException", "ArithmeticException", "IOException"],
+  "correctAnswer": "ArrayIndexOutOfBoundsException"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "medium",
+  "question": "Which block handles cleanup?",
+  "options": ["finally", "catch", "try", "throw"],
+  "correctAnswer": "finally"
+},
+{
+  "subject": "JAVA",
+  "concept": "Exception Handling",
+  "difficulty": "hard",
+  "question": "What happens if exception is not caught?",
+  "options": ["Program terminates", "Ignored", "Continues", "Loops"],
+  "correctAnswer": "Program terminates"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "easy",
+  "question": "Which collection maintains insertion order?",
+  "options": ["LinkedHashSet", "HashSet", "TreeSet", "Queue"],
+  "correctAnswer": "LinkedHashSet"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "easy",
+  "question": "Which list allows fast random access?",
+  "options": ["ArrayList", "LinkedList", "Vector", "Stack"],
+  "correctAnswer": "ArrayList"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "medium",
+  "question": "Which collection sorts elements automatically?",
+  "options": ["TreeSet", "HashSet", "ArrayList", "Queue"],
+  "correctAnswer": "TreeSet"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "medium",
+  "question": "Which map does not allow null key?",
+  "options": ["Hashtable", "HashMap", "LinkedHashMap", "TreeMap"],
+  "correctAnswer": "Hashtable"
+},
+{
+  "subject": "JAVA",
+  "concept": "Collections",
+  "difficulty": "hard",
+  "question": "Which structure offers O(1) average lookup?",
+  "options": ["HashSet", "TreeSet", "ArrayList", "LinkedList"],
+  "correctAnswer": "HashSet"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "easy",
+  "question": "Which method stops thread temporarily?",
+  "options": ["sleep()", "stop()", "wait()", "run()"],
+  "correctAnswer": "sleep()"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "easy",
+  "question": "Which interface is used to create thread?",
+  "options": ["Runnable", "Serializable", "Cloneable", "Iterable"],
+  "correctAnswer": "Runnable"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "medium",
+  "question": "Which method resumes waiting thread?",
+  "options": ["notify()", "wait()", "sleep()", "join()"],
+  "correctAnswer": "notify()"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "medium",
+  "question": "Which keyword ensures visibility across threads?",
+  "options": ["volatile", "static", "final", "synchronized"],
+  "correctAnswer": "volatile"
+},
+{
+  "subject": "JAVA",
+  "concept": "Multithreading",
+  "difficulty": "hard",
+  "question": "Which issue occurs when two threads wait for each other?",
+  "options": ["Deadlock", "Race condition", "Starvation", "Thrashing"],
+  "correctAnswer": "Deadlock"
+}
+
+]
